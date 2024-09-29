@@ -1,10 +1,4 @@
-{
-  "extends": ["next/core-web-vitals", "next/typescript"],
-  "rules": {
-    "react/no-unescaped-entities": "off",
-    "@next/next/no-page-custom-font": "off",
-    "no-console": "off", // Disable 'no-console' rule
-    "no-unused-vars": "warn", // Set 'no-unused-vars' to 'warn'
-    "jsx-a11y/anchor-is-valid": "off" // Disable anchor validation rule in JSX
-  }
-}
+module.exports = {
+  root: true,
+  extends: ['eslint-config-custom/base'],
+};
